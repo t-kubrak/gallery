@@ -1,0 +1,85 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    background-color: #333;
+    font-size: 1em;
+    font-family: 'Lora';
+}
+
+.mainContent {
+    width: 100%;
+    background: radial-gradient( 100% 50% ellipse at center, #ccc, #fff ) no-repeat,
+        #fff;
+}
+
+.headerContent {
+    width: 40%;
+    padding-top: 1em;
+    margin-left: 20%;
+}
+
+header {
+    font-size: 1.8em;
+    font-family: 'Cookie';
+}
+
+#imgSection{
+    min-height:300px;
+}
+
+#thumbs{
+    text-align:center;
+}
+
+.thumb{
+    display:inline-block;
+    width:100px;
+    height:80px;
+    line-height:80px;
+    background:#fff;
+    margin:5px;
+    padding:5px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+}
+
+.thumb img {
+    max-width: 85px;
+    max-height: 85px;
+    vertical-align:middle;
+}
+
+.selected{
+    width:150px;
+    height:125px;
+    line-height:125px;
+    opacity:1.0 !important;
+}
+
+.selected img {
+    max-width: 125px;
+    min-width: 125px;
+    vertical-align: middle;
+}
+
+#instruction{
+    text-align:center;
+    font-family: 'Lora';
+    padding-bottom: 10px;
+}
+
+.thumbClone {
+    max-width: 150px;
+    max-height: 150px;
+    opacity: 0;
+    z-index:1;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 400px auto 0px auto;
+    border:10px solid white;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #000;
+}
